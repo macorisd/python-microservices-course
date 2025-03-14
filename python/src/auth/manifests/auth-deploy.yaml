@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: macoplytix/auth
+          image: macoplytixauth
           ports:
             - containerPort: 5000
           envFrom:
