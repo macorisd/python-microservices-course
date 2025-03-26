@@ -4,7 +4,6 @@ metadata:
   name: auth
   labels:
     app: auth
-
 spec:
   replicas: 2
   selector:
@@ -21,7 +20,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: macoplytixauth
+          image: macoplytix/auth
           ports:
             - containerPort: 5000
           envFrom:
